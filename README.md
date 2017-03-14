@@ -26,7 +26,7 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 ```gradle
 dependencies {
 	...
-	compile 'com.github.GrenderG:Toasty:1.1.3'
+	compile 'com.github.GrenderG:Toasty:1.1.4'
 }
 ```
 
@@ -70,6 +70,8 @@ You can also create your custom Toasts with the `custom()` method:
 ``` java
 Toasty.custom(yourContext, "I'm a custom Toast", yourIconDrawable, textColor, tintColor, duration, withIcon, true).show();
 ```
+### Extra
+[You can pass formatted text to Toasty!](https://github.com/GrenderG/Toasty/blob/master/app/src/main/java/es/dmoral/toastysample/MainActivity.java#L76-L93)
 
 There are variants of each method, feel free to explore this library.
 
@@ -80,16 +82,22 @@ Want to be here? Open an `issue` or make a `pull request`.
 
 <table>
 	<tr>
-	<td><img src="https://lh3.googleusercontent.com/vmch41lYF_TKb1MKgtYrSgz2rKQ4T1EnGRCGpWSMqLRSzi_pgNWoZpw9WJE8UV4t614=w300-rw" width="64"/></td>
-	<td><a href="https://play.google.com/store/apps/details?id=com.trivisionzero.chromophoto">ChromoPhoto - Colorize B&W</a></td>
+		<td><img src="https://lh3.googleusercontent.com/vmch41lYF_TKb1MKgtYrSgz2rKQ4T1EnGRCGpWSMqLRSzi_pgNWoZpw9WJE8UV4t614=w300-rw" width="64"/></td>
+		<td><a href="https://play.google.com/store/apps/details?id=com.trivisionzero.chromophoto">ChromoPhoto - Colorize B&W</a></td>
+	</tr>
+	<tr>
+		<td><img src="https://lh3.googleusercontent.com/2EYJPs-qBlKJ3L6cy7idQpzKfZkTzA2G4UQfbs-96VGMftQ-7aV4Dvj77ejzZlAAVx_C=w300-rw" width="64"/></td>
+		<td><a href="https://play.google.com/store/apps/details?id=com.serg.chuprin.tageditor">AutoTagger - редактор тегов.</a></td>
+	</tr>
 </table>
 
 Screenshots
 --
 
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr1.png" width="250">
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr2.png" width="250">
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr3.png" width="250">
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr4.png" width="250">
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr5.png" width="250">
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr6.png" width="250">
+<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr_1.png" width="250">
+<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr_2.png" width="250">
+<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr_3.png" width="250">
+<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr_4.png" width="250">
+<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr_5.png" width="250">
+<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr_6.png" width="250">
+<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr_7.png" width="250">
